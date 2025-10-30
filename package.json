@@ -1,0 +1,24 @@
+{
+  "name": "intime-backend",
+  "private": true,
+  "scripts": {
+    "start": "nest start",
+    "start:dev": "nest start --watch"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.4.20",
+    "@nestjs/core": "^10.4.20",
+    "@nestjs/platform-fastify": "^10.4.20",
+    "@prisma/client": "^6.18.0",
+    "fastify": "^4.29.1",
+    "minio": "^8.0.6",
+    "prisma": "^6.18.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^10.0.0",
+    "@types/node": "^24.9.2",
+    "typescript": "^5.9.3"
+  }
+}

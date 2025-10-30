@@ -1,0 +1,18 @@
+{
+  "name": "intime-backend",
+  "private": true,
+  "scripts": {
+    "start": "nest start",
+    "start:dev": "nest start --watch"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.0.0",
+    "@nestjs/core": "^10.0.0",
+    "@nestjs/platform-fastify": "^10.0.0",
+    "fastify": "^4.26.2"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^10.0.0",
+    "typescript": "^5.5.0"
+  }
+}
